@@ -16,6 +16,9 @@ h2 {
 }
 
 .head {
+  background-image: url("BG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-color: #e1b5aa;
   text-align: center;
   padding-top: 10px;
