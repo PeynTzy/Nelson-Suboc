@@ -31,10 +31,16 @@ h2 {
 }
 
 .bottom {
-  color: white;
+  background-image: url("BG2.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text: shadow 5px;
   text-align: center;
   background-color: brown;
+  position: rel;
 }
+
 
 img {
   border-radius: 8px;
