@@ -1,80 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Nelson Suboc</title>
-    <link href="styles.css" rel="stylesheet" />
-    <link href="LOGO.png" rel="icon" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@900&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
     />
+    <link href="LOGO.png" rel="icon" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Nelson Suboc!</title>
   </head>
 
-  <body></body>
-
+  <body>
+    <section>
+      <nav class="navbar navbar-expand-xxl navbar-light bg-warning">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand">
+            <img src="LOGO.png" alt="" width="30" height="30" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav d-flex">
+              <li class="nav-item">
+                <a href="#" class="nav-link"> About Us </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
 
     <div class="head">
-      <img src="Watermark.png"><br>
+      <img src="Watermark.png" /><br />
       <p>
         “Taking an image, freezing a moment, reveals how rich reality truly is.”
       </p>
-      <br><br>
+      <br /><br />
     </div>
 
-
-    <div class="middle">
-    </br><br>
-      <h2> ABOUT ME: </h2><br>
-      <img src="IMG.png" height="200" width="200" alt="profile">
-      <h1>Nelson Suboc</h1>
-      <h2>a <span class="pro">photo</span>grapher.</h2><br>
-      <p>Hello there! My name is Nelson Suboc, I'm 23 years old. An amateur photographer from the Pangasinan.</p>
-      <p>Let me create your beautiful story through your mesmerizing pictures to be taken by Nelson Suboc Photography.</p>
-      <p> I’m excited to be working with you! :) Thank you for your continued patronage!</p><br>
-      <h3>PORTFOLIO</h3>
-
-      <table align="center">
-        <tr>
-          <td>
-            <img src="1.jpg" height="400" width="270" />
-          </td>
-          <td>
-            <img src="2.jpg" height="400" width="270" />
-          </td>
-          <td>
-            <img src="3.jpg" height="400" width="270" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="4.jpg" height="400" width="270" />
-          </td>
-          <td>
-            <img src="5.jpg" height="400" width="270" />
-          </td>
-          <td>
-            <img src="6.jpg" height="400" width="270" />
-          </td>
-        </tr>
-        <tr>
-      </table>
-  
-    <br><br>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>ABOUT ME:</h1>
+        <img src="IMG.png" height="200" width="200" alt="profile" />
+        <h1>Nelson Suboc</h1>
+        <p>
+          Hello there! My name is Nelson Suboc and I was born on the 8th of april, 1998 in Tarlac City, Tarlac.
+          My Parents were Nelson Suboc Sr. and Rowena Suboc.My early childhood was a typical elementary class environment cicra the early 2000's.
+          I am currently taking the degree of Bachelor of Science in Information Technology at the Pangasinan State University.
+          While studying I also work as an amateur photographer. Let me create your beautiful story
+          through your mesmerizing pictures to be taken by Nelson Suboc
+          Photography. I’m excited to be working with you! :) Thank you for your
+          continued patronage!
+        </p>
+      </div>
     </div>
 
+    <div class="row">
+      <div class="col-md-6 text-left"></div>
+      <div class="col-md-6"></div>
+    </div>
 
-    <div class="bottom">
-      <br><br>
-      <img src="Email.png" height="30" width="30">
+    <h1 class="text-center">Portfolio</h1>
+
+    <div class="row" >
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="Christine.jpg">
+            <img src="Christine.jpg" alt="Christine" style="width: 100%" />
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="Jam.jpg">
+            <img src="Jam.jpg" alt="Jam" style="width: 100%" />
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="Xiamara.jpg">
+            <img src="Xiamara.jpg" alt="Xiamara" style="width: 100%" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div class="row bg-warning ">
+      <div class="col-md-6 text-center">
+        <br>
+        <img src="Email.png" height="30" width="30">
       <h3>CONTACT US FOR MORE DETAILS!</h3>
       <p>Contact Number: 09475329086</p>
       <p>Email Address: subocnelson1998@gmail.com</p><br>
-      
-      <h4> You can also message us directly </h4>
+      </div>
 
-      <div align="center">
+      <div class="col-md-6 text-center"> 
+        <br>
+      <h4> You can also message us directly </h4>
         <p>
           <form method="post" name="contact_form"
           action="contact-form-handler.php"></form>
@@ -87,9 +128,7 @@
               <input type="submit" value="Submit">
           </form>   
       </div>
-      <br><br><br><br>
     </div>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
